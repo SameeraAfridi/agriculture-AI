@@ -6,6 +6,7 @@ import yieldicon from "../assets/yieldicon.svg";
 import tips from "../assets/tips.svg";
 import home from "../assets/home.png";
 import user from "../assets/User.svg";
+import alert from "../assets/alert.svg";
 import { Link } from "react-router-dom";
 
 
@@ -83,33 +84,36 @@ function Deshboard() {
             </div>
 
             {/* Footer */}
-            <footer className="sticky bottom-0 bg-gray-800/80 backdrop-blur-sm border-t border-green-600/30">
-                <nav className="flex justify-around items-center pt-2 pb-3">
-                    <a className="flex flex-col items-center justify-end gap-1 text-green-400 cursor-pointer">
-                        <img
-                            src={home}
-                            alt="Home"
-                            className="h-8 w-10 object-contain"
-                        />
-                        <p className="text-xs font-medium">Home</p>
-                    </a>
-                    <a className="flex flex-col items-center justify-end gap-1 text-gray-400 cursor-pointer">
-                        <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 256 256">
-                            <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Z" />
-                        </svg>
-                        <p className="text-xs font-medium">Alerts</p>
-                    </a>
-                    
-                    <a className="flex flex-col items-center justify-end gap-1 text-gray-400 cursor-pointer">
-                        <img
-                            src={user}
-                            alt="Profile"
-                            className="h-8 w-10 object-contain"
-                        />
-                        <p className="text-xs font-medium">Profile</p>
-                    </a>
-                </nav>
-            </footer>
+            <footer className="fixed bottom-0 left-0 right-0 bg-gray-800/80 backdrop-blur-sm border-t border-green-600/30">
+  <nav className="flex justify-around items-center pt-2 pb-3">
+    {/* Home */}
+    <Link
+      to="/"
+      className="flex flex-col items-center justify-end gap-1 text-green-400 cursor-pointer"
+    >
+      <img src={home} alt="Home" className="h-8 w-10 object-contain" />
+      <p className="text-xs font-medium">Home</p>
+    </Link>
+
+    {/* Alerts */}
+    <Link
+      to="/alert"
+      className="flex flex-col items-center justify-end gap-1 text-gray-400 cursor-pointer"
+    >
+<img src={alert} alt="alert" className="h-8 w-10 object-contain" />
+      <p className="text-xs font-medium">Alerts</p>
+    </Link>
+
+    {/* Profile */}
+    <Link
+      to="/Profile"
+      className="flex flex-col items-center justify-end gap-1 text-gray-400 cursor-pointer"
+    >
+      <img src={user} alt="Profile" className="h-8 w-10 object-contain" />
+      <p className="text-xs font-medium">Profile</p>
+    </Link>
+  </nav>
+</footer>
         </div>
     );
 }

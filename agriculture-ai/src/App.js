@@ -5,6 +5,8 @@ import DiseaseDetection from "./pages/DiseaseDetection.js"; // adjust path
 import YieldForecast from "./pages/YieldForecast.js"; // adjust path
 import WeatherForecast from "./pages/WeatherForecast.js"; // adjust path
 import FarmingTips from "./pages/FarmingTips.js"; // adjust path
+import Alert from "./pages/alert.js"; // adjust path
+import Profile from "./pages/Profile.js"; // adjust path
 import "./App.css";
 
 function App() {
@@ -26,6 +28,11 @@ function App() {
         {/* Farming Tips */}
         <Route path="/FarmingTips" element={<FarmingTips />} />
 
+        {/* {Alert} */}
+        <Route path="/alert" element={<Alert />} />
+
+        {/* {Profile} */}
+        <Route path="/Profile" element={<Profile />} />
 
       </Routes>
     </Router>
