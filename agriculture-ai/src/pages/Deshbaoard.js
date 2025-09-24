@@ -6,7 +6,7 @@ import yieldicon from "../assets/yieldicon.svg";
 import tips from "../assets/tips.svg";
 import home from "../assets/home.png";
 import user from "../assets/User.svg";
-import alert from "../assets/alert.svg";
+import alertIcon from "../assets/alertIcon.svg";
 import { Link } from "react-router-dom";
 
 
@@ -95,12 +95,12 @@ function Deshboard() {
       <p className="text-xs font-medium">Home</p>
     </Link>
 
-    {/* Alerts */}
+    {/* Notifications */}
     <Link
-      to="/alert"
+      to="/Notification"
       className="flex flex-col items-center justify-end gap-1 text-gray-400 cursor-pointer"
     >
-<img src={alert} alt="alert" className="h-8 w-10 object-contain" />
+      <img src={alertIcon} alt="alert" className="h-8 w-10 object-contain" />
       <p className="text-xs font-medium">Alerts</p>
     </Link>
 
