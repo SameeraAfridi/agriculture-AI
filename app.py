@@ -240,4 +240,4 @@ def index():
     return "🌱 Crop Disease Detection, Weather & Yield Forecasting API with Auth is running!"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True)  
