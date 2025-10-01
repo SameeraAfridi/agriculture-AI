@@ -1,0 +1,131 @@
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #111827; /* Tailwind's gray-900 */
+  overflow-x: hidden; /* prevents horizontal white scroll */
+}
+
+/* 
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background: #e6f0e6; 
+}
+
+.header {
+    background: linear-gradient(
+        90deg,
+        rgba(76, 175, 80, 1) 0%,
+        rgba(33, 150, 243, 1) 100%
+    );
+    border-radius: 0px 0px 32px 32px;
+    height: 210px;
+    position: relative;
+    width: 108%;
+}
+
+.header .icon {
+    height: 72px;
+    left: 316px;
+    opacity: 0.7;
+    position: absolute;
+    top: 58px;
+    width: 60px;
+}
+
+.header .vector {
+    height: 76.39%;
+    left: 4.17%;
+    position: absolute;
+    top: 11.81%;
+    width: 91.67%;
+}
+
+.header .heading-agrotech {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 32px;
+    justify-content: center;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: absolute;
+    top: 70px;
+    white-space: nowrap;
+    width: 228px;
+}
+
+.header .text-wrapper {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 20px;
+    justify-content: center;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: 20px;
+    opacity: 0.8;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+    width: 162px;
+
+}
+.dashboard-title {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #2d5016;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.dashboard-card {
+  background: white;
+  width:396px;
+  height: 150px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.dashboard-card h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #2d5016;
+}
+
+.dashboard-card p {
+  margin: 5px 0 0 0;
+  font-size: 0.9rem;
+  color: #555;
+} */
