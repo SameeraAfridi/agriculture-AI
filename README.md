@@ -1,31 +1,37 @@
-# 🌱 Crop AI Project
+# 🌱 Crop AI Project  
 
-## 📌 Overview
-This project is a **Flask-based backend API** that provides:
-- 🌾 **Crop disease detection (via image upload)**  
-- ⛅ **Weather forecast (via city name)**  
+## 📌 Overview  
+Crop AI is a **Flask-based backend API** for smart agriculture.  
+It provides:  
+- 🌾 **Crop Disease Detection** – upload plant images and get predictions.  
+- ⛅ **Weather Forecast** – fetch real-time weather by city name.  
+- 🌽 **Yield Prediction** – predict yield using ML regression models.  
+- 🔑 **User Authentication** – signup/login using secure password hashing.  
 
-It is designed as a base system for a team project, where different members will extend it further.  
-
----
-
-## 👥 Team Roles
-
-### 🔹 Backend Developer (✅ Tabish Nazir Awan)
-- Set up Flask API  
-- Created `/upload` and `/weather` routes  
-- Added error handling & basic structure  
-
-### 🔹 ML Engineer (⏳ Sameera Afridi)
-- Integrate trained ML model (TensorFlow / PyTorch)  
-- Preprocess uploaded image  
-- Predict disease and return result in JSON  
-
-### 🔹 Frontend Developer (⏳ Yusra Javed)
-- Build UI for image upload & city input  
-- Connect frontend with backend API  
-- Show results (disease prediction + weather forecast) to user  
+This project is part of a **team collaboration**, where each member handled different modules.  
 
 ---
 
-## 📂 Project Structure
+## 👥 Team Roles  
+
+- **🔹 Backend Developer (✅ Tabish Nazir Awan)**  
+  - Set up Flask API and routing  
+  - Implemented `/signup`, `/login`, `/upload`, `/weather`, `/predict_yield`  
+  - Handled error management and integrations  
+
+- **🔹 ML Engineer (✅ Sameera Afridi)**  
+  - Integrated trained ML/DL models (TensorFlow, Scikit-learn)  
+  - Implemented disease classification (CNN) and yield prediction (Regression)  
+  - Preprocessing pipelines for image + numeric data  
+
+- **🔹 Frontend Developer (✅ Yusra Javed)**  
+  - Built React UI for users  
+  - Connected frontend with Flask backend APIs  
+  - Displayed predictions, weather data, and authentication flow  
+
+---
+
+## 📂 Project Structure  
+
+
+
