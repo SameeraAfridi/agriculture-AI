@@ -1,0 +1,6 @@
+
+flask
+werkzeug
+python-weather
+pandas
+scikit-learn
