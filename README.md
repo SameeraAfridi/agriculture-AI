@@ -31,5 +31,4 @@ This project is built by a team — each member contributes to different modules
 
 ---
 
-## 📂 Project Structure  
 
